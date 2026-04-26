@@ -1,7 +1,11 @@
 frontend:
-  image: yourrepo/frontend:v1
-  replicas: 1
+  image:
+    repository: yourrepo/frontend
+    tag: :v1
+  replicas: 2
 
 backend:
-  image: yourrepo/backend:v1
-  replicas: 1
+  image:
+    repository:  yourrepo/backend:v1
+    tag: :v1
+  replicas: 3
